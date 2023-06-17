@@ -1,0 +1,8 @@
+lst = [1,2,3,3,1,2,3]
+dict = {}
+
+for item in lst:
+    if item in dict:
+        dict[item] += 1
+    else: dict[item] = 1  
+print(dict) 
